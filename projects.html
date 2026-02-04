@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="projects.html">Projects</a>
+              </li>
+              
+              <li class="nav-item ms-auto">
+                <a class="nav-link" href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>   
+
+    <main class="flex-grow-1">
+        <div class="container mt-5">
+            <h1 class="text-center mb-5">My Projects</h1>
+
+            <div class="accordion" id="projectsAccordion">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Project 1: Personal Portfolio Website
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <img src="../resources/img/project1.png" class="img-fluid rounded border shadow-sm" alt="Website Project" style="width: 100%; object-fit: cover; height: 200px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <h4>Built with HTML, CSS, & Bootstrap</h4>
+                                    <p>This is the website you are currently looking at! I built this to showcase my hobbies and skills for CSCI 3308. It features a responsive grid layout, a custom navigation bar, and interactive components like this accordion.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Project 2: C++ Interactive Game
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <img src="../resources/img/gameoflife.jpg" class="img-fluid rounded border shadow-sm" alt="Python Project" style="width: 100%; object-fit: cover; height: 200px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <h4>The Game Of Life</h4>
+                                    <p>Designed and implemented a text-based, two-player strategy board game in C++ inspired by The Lion King. Players choose unique characters, paths, and advisors while navigating a randomized two-lane board filled with events, challenges, and strategic decisions. The game uses object-oriented design, file I/O, randomization, and menu-driven gameplay to manage player stats, events, and win conditions, emphasizing both software design and game balance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Project 3: Personal AI Roommate
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projectsAccordion">
+                        <div class="accordion-body">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <img src="../resources/img/roommate.jpeg" class="img-fluid rounded border shadow-sm" alt="App Project" style="width: 100%; object-fit: cover; height: 200px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <h4>RoomMate</h4>
+                                    <p>A prototype for an AI "roommate" designed to automate my dorm life. Powered by voice commands, natural language processing, IoT, machine learning, and computer vision, RoomMate can assist with tasks, control devices, provide security, and optimize study time.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-2">Connect with me:</p>
+            <div class="mb-3">
+                <a href="https://github.com/ayubahmed1" class="text-white mx-2"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/ayub-ahmed-132408240/" class="text-white mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://letterboxd.com/ayub_ahmed" class="text-white mx-2"><i class="fab fa-letterboxd fa-2x"></i></a>
+            </div>
+            <p class="small mb-0">&copy; 2026 Ayub Ahmed. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
